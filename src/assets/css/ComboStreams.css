@@ -1,0 +1,137 @@
+*{
+    /* overflow: hidden; */
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    list-style-type: none;
+
+    color: #61dbfb;
+    text-decoration: none;
+    /* background-image: linear-gradient( 45deg, #18181b,#18181b00,#18181b00,#18181b00, #18181b) */
+}
+
+
+
+
+
+.header {
+    z-index: 5;
+    cursor: default;
+    padding: 11px;
+    font-size: 28px;
+    background-color: rgba(0,0,0, 0.25);
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border-radius: 8px;
+    color: #61dbfb;
+    text-align: center;
+}
+
+.header button{ 
+    cursor: pointer;
+    padding: 11px;
+    font-size: 15px;
+    background-color: rgba(0,0,0, 0.25);
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #61dbfb;
+    text-align: center;
+    min-width: 7.5vw;
+
+}
+
+
+
+.pagename{
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    margin-left:  15%;
+    margin-right: 15%; 
+    background-image: linear-gradient( 45deg, #18181b,#18181b00,#18181b00,#18181b00, #18181b);
+    padding-top: 2px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.mainDiv{
+    min-height: 100vh;
+
+    background-image: linear-gradient( 75deg, #18181b, #18181b);    
+    
+}
+
+.mainDiv h1{
+    color: white;
+    
+    margin-left: 10%;
+}
+
+.mainBody body{
+    min-height: 100%;
+
+}
+.mainBody h1{
+    -webkit-text-stroke: 0.5px #18181b;
+}
+
+button{
+    border: none;
+}
+
+.addStream{
+    float: left;
+}
+
+.FAQ{
+    float: right;    
+}
+
+
+.landingPageMain{
+    position: relative;
+
+    margin: auto;
+    width: 350px;
+    padding: 10px;
+
+    
+    
+    background-color: #080808;
+    font-size: 15px;
+    
+    border-radius: 15px;
+
+    margin-top: 30vh;
+    white-space: pre-line;
+
+    color: white;
+}
+
+.question{
+    color: white;
+}
+.answer{
+    margin-left: 15%;
+    text-align: left;
+    float: left;
+    color: white;
+}
+
+.embeded{
+    margin-right: 3px;
+}
+
+.viewport{
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    right: 1.9%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

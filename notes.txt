@@ -1,0 +1,7 @@
+If Click on stream -> Focus/ make it take up majority of stream + change to that chat
+
+
+If no streams up, show landing page
+else dont show it
+
+Viewmodes -> choose between different view templates
